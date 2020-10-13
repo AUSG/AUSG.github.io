@@ -1,23 +1,12 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: 오타 건의
+about: 오타를 발견했습니다.
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**어떤 오타인지 설명해주세요.**
 
-**To Reproduce**
-Steps to reproduce the behavior:
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
+e.g. "Nav에서 Activities가 Activietys로 잘못나와있습니다!"

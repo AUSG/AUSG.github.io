@@ -1,21 +1,11 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: 새로운 내용 추가 요청
+about: 저희 페이지에 새로운 내용을 추가하고자하는 경우 그 아이디어를 제시해주세요.
 title: ''
 labels: ''
 assignees: ''
 ---
 
-### **Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+### **어떤 내용을 추가하고 싶으신지 설명해주세요.**
 
-### **Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-### **Describe alternatives you've considered** <!-- optional -->
-A clear and concise description of any alternative solutions or features you've considered.
-
-### **Additional context** <!-- optional -->
-Add any other context or screenshots about the feature request here.
-
-<!-- If you have successfully implemented your requested feature on your own repository, open a pull request instead. -->
+e.g. "Notice 탭을 만들어서 쉽게 공지사항을 전달할 수 있으면 좋겠어요."
