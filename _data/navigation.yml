@@ -1,0 +1,15 @@
+nav:
+  - title: "About"
+    section: about
+
+  - title: "Activities"
+    section: activities
+    
+  - title: "Timeline"
+    section: timeline
+
+#  - title: "Members"
+#    section: members
+
+  - title: "Contact"
+    section: contact

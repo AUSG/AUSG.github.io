@@ -1,0 +1,213 @@
+header:
+    title: AWS와 개발을 사랑하는 대학생들의 모임 AUSG
+    text: AWS University</br>Student Group
+    button: About AUSG
+    buttonlink: "#about"
+
+about:
+    title: "About AUSG"
+    text: "<b>AUSG</b>는 AWS University Students Group의 약자입니다.</br>
+      2017년 1기를 시작으로하여 올해 2020년에는 1기부터 4기 멤버들까지 함께 활동 중이랍니다.</br>
+      AWS라는 중심 주제를 바탕으로 여러 주제를 함께 공부하고 즐기며 성장해나가고있습니다.</br>
+      저희 AUSG는 <a href='https://awskrug.github.io/'>AWS 한국사용자모임</a>과 함께하고 있어요! 😎</br>
+      AWS에 관심있는 대학생이시라면 AUSG와 함께하실 것을 추천드립니다!"
+    section: about
+    list:
+      - title: "다양한 관심사"
+        desc: "`AWS`, `클라우드`, `프로그래밍` 등등 다양한 분야에 관심을 갖고, 이러한 주제들로 즐겁게 얘기를 나누는 대학생들의 모임입니다. "
+        icon: fas fa-tv #find more at https://fontawesome.com/icons
+      - title: "자유롭고 다양한 시도"
+        desc: "`사이드 프로젝트` 및 `해커톤` 개최 등등 재미있어보이는 상상들을 AUSG에서 실현할 수 있습니다."
+        icon: fas fa-lightbulb
+      - title: "함께이기에 가능한 활동"
+        desc: "대학생 혼자는 하기 힘든 해커톤 참여나 `웨비나` 진행 등의 뜻깊은 경험을 해볼 수 있습니다."
+        icon: fas fa-users
+
+activities:
+  title: "Activities"
+  text: 저희가 매년 해오는 주요 활동들은 아래와 같습니다.<br/>
+    아래 활동 외에도 "해커톤"과 같이 매 기수별로 원하는 핵심 활동을 추가적으로 진행하고 있습니다.
+  section: activities
+  list:
+    - title: 스터디 모임 진행
+      thumbnail: assets/img/activities/study.png
+      desc: 2020년에는 관심분야에 따라 `AWS 자격증`, `아키텍쳐`, `Golang`, `Github Action`, `Typescript`
+        등의 다양한 주제로 스터디 모임을 진행하고있습니다.
+
+    - title: AWS와 대학생을 주제로한 세미나 진행
+      desc: 대학생 혼자서는 개최하고 홍보하기 만만치 않겠지만, AUSG와 함께라면 가능합니다! AWS를 활용하는 방법이나
+        AWS를 이용한 사례등을 주제로 세미나의 진행자가 되어볼 수 있습니다.
+      thumbnail: assets/img/activities/seminar.jpeg
+
+    - title: AWS 관련 행사 참여
+      desc: "`AWS Community Day` 나 해커톤 등의 행사에 연사자로 혹은 서포터로 참여할 수 있습니다."
+      thumbnail: assets/img/activities/aws-community-day.png
+
+  details:
+    title: Details
+    desc: 위의 활동들을 비롯한 저희의 발자취를 velog와 Github, Facebook을 통해 기록해나가고 있습니다.</br>
+      좀 더 자세히 알아보고싶으시다면 아래의 링크들을 방문해주세요!
+    list:
+      - key: Facebook
+        url: https://www.facebook.com/ausgkr/
+        desc: 모임이나 활동 내용은 주로 Facebook을 통해 알리고있습니다. 페이지를 '좋아요' 해주시면, 저희의 활동 내용을 빠르게 받아보실 수 있습니다.
+      - key: velog
+        url: https://velog.io/@ausg
+        desc: velog에 멤버들 각각의 관심분야에 대해 글을 써나가고있습니다.
+      - key: Github
+        url: https://github.com/AUSG
+        desc: 세미나나 해커톤 등의 활동을 하면서 작성한 문서나 코드들은 Github을 통해 관리하고 있어요.
+
+#portfolio:
+#    title: "Features"
+#    text: "우리 AUSG만이 갖는 특징을 소개해볼게요."
+#    section: features
+#    closebutton: "Close Project"
+    
+
+timeline:
+    title: "Timeline"
+    text: "그 동안 AUSG가 진행해왔던 핵심적인 일들을 정리해보았어요."
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "2017 JAWS Day"
+        year: "2017"
+        desc: "도쿄에서 열린 2017 JAWS Day에 참석하여 '대학생 그룹 구축 방안'에 대한 스피치"
+        image: assets/img/timeline/jaws.png
+        alt: 
+      - title: "2018 re:Invent"
+        year: "2018"
+        desc: "LA에서 개최된 2018 re:Invent에 참석해 '한국의 AWS 대학생 그룹'이라는 주제로 스피치"
+        image: assets/img/timeline/reinvent.png
+        alt:
+        align: right
+
+      - title: "제 1회 Amathon 개최"
+        year: "2018"
+        desc: "남과의 경쟁이 아닌 '자기 자신의 성장'이라는 AUSG의 철학에 맞춘 해커톤 개최"
+        image: assets/img/timeline/hackathon.png
+        alt:
+
+      - title: "초보자를 위한 AWS 뿌시기"
+        year: "2019"
+        desc: "AWS에 익숙하지 않은 이들을 위한 핸즈온 세션 진행"
+        image: assets/img/timeline/novice.png
+        alt: 
+        # you can enforce the aligment
+        align: right
+
+      - title: "제 2회 Amathon 개최"
+        year: "2019"
+        desc: "남과의 경쟁이 아닌 '자기 자신의 성장'이라는 AUSG의 철학에 맞춘 해커톤 개최"
+        image: assets/img/timeline/hackathon-2.png
+        alt:
+
+      - title: "룰렛톤 개최"
+        year: "2020"
+        desc: "'코로나와 대학생'이라는 주제로 진행한 프라이빗 온라인 해커톤"
+        image: assets/img/timeline/roullethon.png
+        alt: image alt text
+        align: right
+
+      - title: 숙명여대 해커톤 참여
+        year: "2020"
+        desc: 숙명여대 해커톤에 클라우드 어시스턴트로 참여
+        image: assets/img/timeline/sookmyung.png
+        alt:
+    end: "4기</br>활동</br>진행 중!"
+
+#about:
+#    title: "About Us"
+#    text: "our story"
+#    section: about
+
+members:
+    title: "AUSG Members"
+    text: "저희 AUSG 멤버들을 소개합니다."
+    subtext: 소개소개~
+    section: members
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "AWS"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "AWSKRUG"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+    
+
+          
+contact:
+    title: "Contact"
+    text: "궁금하신 사항은 무엇이든 편하게 문의해주세요."
+    section: contact
+    
+footer:
+#    legal: "Privacy Policy"
+#    social:
+##      - url: https://twitter.com
+##        icon: "fab fa-twitter"
+#      - url: https://facebook.com
+#        icon: "fab fa-facebook-f"
+##      - url: https://linkedin.com
+##        icon: "fab fa-linkedin-in"
+#      - url: https://github.com/ausg
+#        icon: "fab fa-github"
+##      - url: https://instagram.com
+##        icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
