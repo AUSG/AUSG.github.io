@@ -22,13 +22,11 @@ email      : bo314@naver.com #this is also the email contact forms will go to
 description: "AWS와 개발을 사랑하는 대학생들의 모임. AUSG(AWS University Student Group) 입니다."
 author     : AUSG
 # logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-#  height: 60 #height in px, defaults to 52px
+#   path: assets\img\clients\creative-market.jpg
+#   height: 60 #height in px, defaults to 52px
 
 analytics:
   google: #Google Analytics tracking code here
 keyword: AUSG,ausg,aws 대학생,krug,aws 대학생 모임,개발 동아리,개발자
-collections:
-  portfolio:
 
 markdown: kramdown

@@ -21,21 +21,21 @@ $ jekyll serve
 
 ## To Do
 
-* MIT License인데 어떻게 쓸 수 있는지 확인
-
 * CSS 깔끔하게 빼기
+
+* Links 탭을 만들어 각 스터디 모임이나 핸즈온 문서들로 이동할 수 있었으면 좋겠음.
 
 * Timeline에서 연도 없이도 잘 나오게 CSS 수정
 
 * Contact 동작하게 formspree 가입
 
+* Contact form field 중 이름이나 번호는 없애고 싶음.
+
 * Google analytics, search console 연동
 
-* Members 탭은 숨겨놓았는데 기수별로 볼 수 있었으면 좋겠음.
+* Members 탭은 숨겨놓았는데 순서가 Random(Jekyll에서 지원)인 캐러셀을 이용해 기수별로 볼 수 있었으면 좋겠다.
 
-* Notice 란을 만들어서 뭔가 알릴 사항이 있을 때 편하게 알릴 수 있도록
-
-* 지원하기(Apply) 칸 구성
+* 추후에 Google 설문지에 연결하는 지원하기(Apply) 칸 구성
 
 ## References
 

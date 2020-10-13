@@ -7,7 +7,7 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">{{ site.data.sitetext.about.title | default: "About" }}</h2>
           {% if site.data.sitetext.about.text %}
-          <p class="section-subheading text-muted"><i>{{ site.data.sitetext.about.text }}</i></p>
+          <p class="section-subheading text-muted"><i>{{ site.data.sitetext.about.text | markdownify }}</i></p>
 		  {% endif %}
         </div>
       </div>

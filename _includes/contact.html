@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.contact.title | markdownify | default: Contact Us }}</h2>
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.contact.title | default: Contact Us }}</h2>
           <p class="section-subheading text-white"><i>{{ site.data.sitetext.contact.text | default: "" }}</i></p>
         </div>
       </div>
