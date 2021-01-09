@@ -18,7 +18,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : "AUSG:: AWS 대학생 그룹"
 navTitle: AUSG
-email      : bo314@naver.com #this is also the email contact forms will go to
+# formspree를 통해 사용자들이 발송한 이메일을 받을 이메일
+# 이었지만 formspree쪽의 업데이트로 인해 email 자체가 아닌 form ID를 이용하게 되어서
+# form ID를 적어줘야한다.
+# /_includes/contact.html의 form에서 코드를 참고할 수 있다.
+email      : "xgeprzaq" 
 description: "AWS와 개발을 사랑하는 대학생들의 모임. AUSG(AWS University Student Group) 입니다."
 author     : AUSG
 # logo:     #optional, defaults to site title
